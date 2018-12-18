@@ -1,0 +1,15 @@
+{
+  "name": "product_reviews",
+  "version": "1.0.0",
+  "description": "Отзывы в товаре",
+  "author": "LiquidHub.ru",
+  "type": "snippets",
+  "homepage": "https://github.com/insales-components/product_reviews",
+  "props": {
+    "common": false,
+    "liquid": true
+  },
+  "dependencies": {
+    "reviews_list": "https://github.com/insales-components/reviews_list"
+  }
+}
