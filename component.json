@@ -10,7 +10,7 @@
     "liquid": true
   },
   "dependencies": {
-    "reviews_list": "https://github.com/insales-components/ui-stars",
+    "ui-stars": "https://github.com/insales-components/ui-stars",
     "reviews_list": "https://github.com/insales-components/reviews_list"
   }
 }
