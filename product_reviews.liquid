@@ -4,15 +4,15 @@
 
       {% if form.posted_successfully? %}
         {% if account.reviews_moderated? %}
-          <div class="notice notice-success">
+          <div class="notice is-success">
             Отзыв успешно отправлен.<br/> Он будет проверен администратором перед публикацией.
           </div>
         {% else %}
-          <div class="notice notice-success">Отзыв успешно отправлен</div>
+          <div class="notice is-success">Отзыв успешно отправлен</div>
         {% endif %}
       {% endif %}
       {% if review.errors.size > 0 %}
-        <div class="notice notice-error editor js-review-notice">
+        <div class="notice is-error editor js-review-notice">
           <div>
             Следующие поля заполнены неправильно
           </div>
@@ -82,7 +82,7 @@
       </div><!-- /.review_form -->
 
       {% if account.reviews_moderated? %}
-      <p class="notice notice-info text-info">
+      <p class="notice is-info text-info">
         <i class="fa fa-warning"></i>
         Перед публикацией отзывы проходят модерацию
       </p>
