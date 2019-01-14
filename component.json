@@ -10,6 +10,7 @@
     "liquid": true
   },
   "dependencies": {
+    "ui-forms": "https://github.com/insales-components/ui-forms",
     "ui-stars": "https://github.com/insales-components/ui-stars",
     "reviews_list": "https://github.com/insales-components/reviews_list"
   }
